@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Theophilus N Nenhanga"/>
+        <meta name="description" content=""/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+        <title>BMI Calculator</title>
+    </head>
+    
+    <body>
+        <div>
+            <h1>BMI Calcultor</h1>
+        </div> 
+        <div>
+            <form name="bmi_data">
+                <label title="height" for="height">Height</label>
+                <input type="number" name="height" id="height" step=".01"><br>
+                <label title="mass" for="mass">Mass</label>
+                <input type="number" name="mass" id="mass"><br>
+                <input type="button" onclick="calculate_BMI()" value="Calculate">
+            </form>
+        </div>
+        <div>
+            <p id="display_area">Your BMI is: ---</p>
+        </div>
+    </body>
+</html>
