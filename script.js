@@ -17,6 +17,7 @@ function calculate_BMI(){
     //alert(document.bmi_data.action);
     
     var bmi = mass/(height**2);
+    bmi = bmi.toFixed(2)
     document.getElementById("display_area").innerHTML = "Your BMI is: " + bmi; 
     return false;
 }
