@@ -1,8 +1,15 @@
+/* Done By: Theophilus Nyasha Nenhanga Date: 2022/05/10 */
+
 function calculate_BMI(){
-    //document.bmi_data.action = "index.html";
+    /** 
+     * Purpose: Calculates BMI from data taken from html form input.
+     * Pre-Condiotions: None.
+     * Post-Conditions: Takes data from html form input.
+     * Return: false (boolean).
+     */
+
     height = document.bmi_data.height.value;
     mass = document.bmi_data.mass.value;
-    //alert(document.bmi_data.action);
     
     var bmi = mass/(height**2);
     bmi = bmi.toFixed(2)

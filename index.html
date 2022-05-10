@@ -1,3 +1,5 @@
+<!--Done By: Theophilus Nyasha Nenhanga Date: 2022/05/10-->
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -15,12 +17,14 @@
             <h1>BMI Calcultor</h1>
         </div> 
         <div>
+            <!--Form will collect data to be used when calculating BMI-->
             <form name="bmi_data">
                 <label title="height" for="height">Height(m)</label>
                 <input type="number" name="height" id="height" step=".01" class="form-input"><br>
                 <label title="mass" for="mass">Mass(kg)</label>
                 <input type="number" name="mass" id="mass" class="form-input"><br>
                 <input type="button" onclick="calculate_BMI()" value="Calculate" class="button">
+                <!--Using an onclick function to call the JavaScript function-->
             </form>
         </div>
         <div>
