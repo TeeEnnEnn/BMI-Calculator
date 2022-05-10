@@ -35,3 +35,29 @@ div{
     color:#292826;
     margin-top: 0.5em;
 }
+
+@media screen and (max-width:600px) {
+    body{
+        font-size: 90%;
+        width: 80%;
+    }
+
+    .form-input{
+       max-width: 85%;
+    }
+
+}
+
+@media screen and (min-width:600px) {
+    body{
+        font-size: 100%;
+        width: 65%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    body{
+        font-size: 110%;
+        width: 35%;
+    }
+}
