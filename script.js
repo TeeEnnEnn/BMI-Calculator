@@ -3,7 +3,7 @@
 function calculate_BMI(){
     /** 
      * Purpose: Calculates BMI from data taken from html form input.
-     * Pre-Condiotions: None.
+     * Pre-Conditions: None.
      * Post-Conditions: Takes data from html form input.
      * Return: false (boolean).
      */
